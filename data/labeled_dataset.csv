@@ -1,209 +1,209 @@
 id,text,label
-1,"WHICH streaming device to replace Roku? I watch mostly YouTube TV library recordings and Netflix on standard (non-4K) TVs. I need a remote with power/volume/mute and 30-second skip forward and back which I use constantly. Would Chromecast or Fire Stick be better, and do they support commercial skipping on recorded shows?",help_request
-2,"Look at the review articles on CNET and PCMag and figure out your own specifications from there.",noise
-3,"Fire Stick or NVIDIA Shield.",noise
-4,"Those review articles don't actually answer my question about whether either device lets you skip commercials on recorded shows. That's the whole reason I'm asking here.",help_request
-5,"I'd say NVIDIA Shield is the best option and the Fire Series would be next. Bear in mind though that some of these service issues can follow you regardless of which hardware you pick.",helpful_answer
-6,"Check out this great TV streaming service, sign up here for the best channels and prices!",noise
-7,"You should remember the people answering here are unpaid volunteers, so watch the attitude. You could try the Roku mobile apps or just upgrade to a Smart TV.",noise
-8,"Fire TV Stick or Chromecast with Google TV would both work well for you. I've had fewer playback issues with those than with the older Roku Express models.",helpful_answer
-9,"Locking this one. Responses to a topic this old aren't likely to be useful to anyone now.",noise
-10,"I bought a Netgear AC1900 USB adapter and accidentally misconfigured my router, so I upgraded to a BE6500 RS200. My 10+ year old Win7 tower rejected the setup links as unsafe certificates but my laptop had no problem, so I set it up from the laptop. Best wifi speed before was 120 megs, now it's consistently 220-240+. Totally freaked me out in a good way.",help_request
-11,"Verify the speeds actually match your internet plan, and check the router for a firmware update. Curious why the tower hit certificate issues but the laptop didn't?",helpful_answer
-12,"The tower runs Windows 7 with a bunch of security add-ons, so it's impractical to disable them all. I was just happy to find another way to get it set up.",help_request
-13,"Yeah, router troubleshooting can be a real headache. I feel your pain.",noise
-14,"Well, the router died overnight - no WiFi and the indicator lights are gone. Dreading the support call already.",help_request
-15,"Thanks Pkshadow, that was good info.",noise
-16,"It's all sorted now, the downstairs laptop matches the upstairs tower. Could a mod please remove the photo I posted earlier?",noise
-17,"The certificate failures could come down to DNS resolution differences, or an IPv6/IPv4 fallback behaving differently between the two machines.",helpful_answer
-18,"I'm getting intermittent UPnP streaming problems on Windows 11. I use Foobar/MediaMonkey as control points streaming FLAC to a Mano streamer (piCore - LMS) over a wired connection. One time it works fine for hours, but after the next boot or next day it does not work at all.",help_request
-19,"Check the device drivers in Device Manager, and stop Windows Update from auto-updating your sound device drivers - that driver instability can cause exactly this kind of thing.",helpful_answer
-20,"Are you using a static IP for the streamer, or is it on DHCP?",helpful_answer
-21,"The picore player uses DHCP, but the IP address has stayed the same for two years, so I doubt the address is changing on me.",help_request
-22,"That's a MAGNA HIFI MANO ULTRA MKII running piCorePlayer v8.0.0 with Squeezelite v1.9.9-1430-pCP. Here's the manual link for the advanced configuration so you can check the service startup order.",helpful_answer
-23,"I found a workaround: if Foobar fails to connect, launching MediaMonkey afterwards gets playback working in Foobar again. It stopped working on picore 9 though, so I reverted to 8.2.",help_request
-24,"This is just scummy what Roku did, they made every one of their users sign new terms (so you can't sue them) right before the breach came out. The timing is suspicious.",help_request
-25,"I suggest they already knew. Keep an eye out for a class action.",noise
-26,"Assuming what Roku has said about how the account info was obtained is true, the Roku customer is to blame. The credentials were almost certainly stolen from other data breaches, not from Roku's own systems.",helpful_answer
-27,"I never got an email from Roku either, but I changed my password anyway just to be safe.",noise
-28,"The fact that you weren't notified at all is suspicious and is reason enough not to trust or use Roku. A responsible company notifies all of its users during a breach.",helpful_answer
-29,"I still think they had foreknowledge and pushed the new terms to shield themselves legally.",noise
-30,"Notifying only the ~15,000 affected accounts is actually proper protocol when the credentials came from an external source rather than their own systems.",helpful_answer
-31,"How safe is it really to let your browser store passwords, then?",help_request
-32,"Industry best practice is still a company-wide notification when there's any breach, even if only some accounts were used.",helpful_answer
-33,"And for what it's worth, my credentials were compromised through other means, not through browser storage.",helpful_answer
-34,"There's a YouTube video by Louis that goes into this and backs up the skepticism about Roku.",noise
-35,"How do I choose the best VPN between VPN Unlimited and PIA (Private Internet Access) for streaming?",help_request
-36,"For a streaming VPN, weigh the server network, speed, streaming compatibility, security, ease of use, pricing, and a strict no-logs policy. The no-logs commitment matters most if privacy is your concern.",helpful_answer
-37,"Using express vpn, fast and reliable and also safe, dont go for free vpn.",noise
-38,"Your suggestions are now moving from next to useless into outright promotion of a product without any of the explanation that's needed.",noise
-39,"very helpful comment, i read it, thanks for sharing!",noise
-40,"I'm trying to add apps to my LG smart TV to get around the ads but I can't seem to add them. The built-in YouTube app is so limited.",help_request
-41,"LG TVs can't run Android apps - the clue is in the name, LG Web OS. It's a proprietary system and you can't sideload onto it. Cast from your phone to the TV instead.",helpful_answer
-42,"I hate that stupid youtube app. It has absolutely nothing. Maybe I'll just get a Fire Stick.",noise
-43,"If you did get a Firestick you'd at least have the option of sideloading apps - though honestly the YouTube app looks almost identical on it too.",helpful_answer
-44,"Next time I'm gettin' a better tv. Sick of LG's ads and tracking software and having to hack around their limits.",noise
-45,"A laptop and an HDMI cable? That's what my wife uses.",helpful_answer
-46,"I think you can use a cabled connection or like you say an HDMI. Probably better control than a Chromecast anyway.",noise
-47,"I have my tower PC connected to the TV with a 5 metre HDMI lead, and I control it from the couch with a backlit wireless keyboard that has a built-in touchpad. Works great.",helpful_answer
-48,"I think almost any reasonably modern laptop will connect fine to a current TV over HDMI.",helpful_answer
-49,"I'd like to Thank you PaperClip!!! Got it working with Windows Connect once I disabled Bluetooth. I've been watching bleep ever since.",noise
-50,"When I do it on my TV, I click on Connect and Windows scans for devices, then it shows up.",helpful_answer
-51,"I don't get a Duplicate option. It only shows up if I go into the different screen settings.",help_request
-52,"After you've connected, click Connect again and you'll see options in blue writing for the projection/mirror mode. I've attached screenshots showing where.",helpful_answer
-53,"I'm not sure it appears 'Blue' lol. It shows highlighted. But I see the menu now.",noise
-54,"Just wanted to say I picked up a Targus laptop cooling pad at a secondhand store for $10. So lucky, it really cut down the heat while streaming.",noise
-55,"My Firestick 4K now plays show/movie trailers in French, Italian or Spanish for no reason, and factory resets do nothing. It's been unreliable for months.",help_request
-56,"No idea, other than a friend went through about 6 of them last year.",noise
-57,"You'd think with Amazon's profit margins they could afford to write software that actually works.",noise
-58,"On top of that, my watchlist items aren't even showing up anymore. The problems keep piling on.",help_request
-59,"I think that same friend ended up switching to Chromecast because of problems like these.",noise
-60,"Wow.",noise
-61,"Amazon announced hardware department layoffs in late 2022, so I doubt these problems get fixed any time soon.",noise
-62,"And the customer service call was painful - the rep asked me the exact same question 5 times despite my answering it.",noise
-63,"Amazon doesn't even warn you AFTER it's happened that content was removed while you had it paused. Terrible experience.",noise
-64,"The Amazon Firestick is used as a streaming device, period. The rep was probably just trying to confirm which app you meant, which is a reasonable question.",helpful_answer
-65,"Remember when streaming was going to be so wonderful?",noise
-66,"After eight months and several firmware updates there's been no change, so I'm just going to get a used Nvidia Shield Pro.",noise
-67,"For what it's worth I haven't had any real issues with a FireStick Lite. Makes me wonder if some of this is location or network related on your end.",helpful_answer
-68,"Are the cheap Android boxes a malware risk? Thanks for the input, I'll try the Nvidia Shield eventually.",help_request
-69,"It's the no-name boxes sold through online marketplaces that are the problematic ones for malware. You can mitigate a lot of it with PiHole network filtering.",helpful_answer
-70,"Hello, I have a streaming issue and I don't see a forum sub-topic where I can get help. Where do I get assistance here?",help_request
-71,"Describe your issue - that'll help us work out which forum to move your topic to, such as External Hardware.",helpful_answer
-72,"My new LG Smart TV freezes and buffers for 20-30 seconds with Roku, while two other TVs with Roku sticks work fine. I'd rather troubleshoot it than return it.",help_request
-73,"Here's the link to the Network Streaming Devices forum section.",noise
-74,"Check the Roku connection speed, then remove the device and swap it with one of your working units, and try different HDMI ports. You'll find the speed under Settings > Network > About.",helpful_answer
-75,"The Roku is built into the TV, not a separate device, and I'm having trouble even finding the Roku settings.",help_request
-76,"What's the exact model number of the TV?",helpful_answer
-77,"On an LG Roku TV, press the Home button on the remote and you'll get to the settings from there - here are the steps.",helpful_answer
-78,"Always supply make/model. Note: NEW TV. Call LG.",noise
-79,"The model is 50UT7570PUB. I'm honestly not even sure whether Roku is involved in the problem.",help_request
-80,"Here's a link to the full specifications for that TV.",helpful_answer
-81,"Are there any truly free VPNs available? Most of the ones I've seen say they're free but then charge once you get into them. Also, does a Chromebook come with a free VPN built in?",help_request
-82,"Take a look at ProtonVPN and Windscribe - both have genuine free tiers, though with some feature limitations.",helpful_answer
-83,"On ProtonVPN's free version you can only connect to Japan, the Netherlands and the USA, and the bandwidth is limited.",helpful_answer
-84,"There's a MakeUseOf article that compares the free VPN services and their speeds - worth a read.",helpful_answer
-85,"Try PureVPN, they have a 7-day risk-free trial with all features for new users.",noise
-86,"Chromebooks have built-in VPN support for L2TP over IPsec connections, though you may need certificates depending on the network type.",helpful_answer
-87,"I've used Hola VPN, Touch VPN and ProtonVPN without any issues.",noise
-88,"ProtonVPN's paid service is good, they've had Black Friday discounts before.",noise
-89,"I recommend HolaVPN.",noise
-90,"You could try SPL VPN, iTopVPN, or NordVPN - SPL VPN is my favorite among the free ones.",noise
-91,"I've been looking for a good VPN and there are so many out there. What I want: works on pc, mac, firestick, amazon prime, lets me jump between countries to watch shows there, and not too expensive.",help_request
-92,"Here, let me google that for you.",noise
-93,"ProtonVPN's free tier is a good start. For comparing options properly, check thatoneprivacysite.net and privacytools.io.",helpful_answer
-94,"Keep in mind a VPN usually slows your network speed, so test with the free trials before paying for anything.",helpful_answer
-95,"Install HMA VPN, pick a location in the country whose shows you want, and you can also just leave it on for normal browsing.",helpful_answer
-96,"Are you after free or paid, and what OS? I'd steer clear of Hola because of its data practices - there are reviews on vpntesting.com that go into it.",helpful_answer
-97,"I'd avoid free VPNs. NordVPN is based in Panama with no legal logging requirements, and I've used it reliably for 3+ years.",helpful_answer
-98,"Mullvad is worth a look - about 5 euros a month, reliable, and it takes lots of different payment methods.",helpful_answer
-99,"Try SPL VPN, Secure Light Speed VPN, or Ryn VPN. SPL is popular here in Qatar and has a no-log policy.",noise
-100,"I use Firesticks for my TVs but I spend a lot of time waking up the next device and TV and stepping through everything to get back to where I was when I move between rooms. They're slow, they sleep too soon, and I can't find a setting to stop it.",help_request
-101,"Roku Express is an alternative worth considering - it lets you resume streaming with a single click within a 2-hour window, after which it takes a couple more steps.",helpful_answer
-102,"I had a bad experience with Roku back when it had compatibility issues with YouTube TV and needed extra steps to get into the app. Can you tell me more specifically about Roku's speed now?",help_request
-103,"Test it yourself with a Roku, and note that if you keep the Roku powered on all the time the startup drops to just a few seconds.",helpful_answer
-104,"I didn't keep the Roku, unfortunately. I'm really after recommendations from people who've used several streaming platforms.",help_request
-105,"You can use your TV's own remote for volume rather than the streaming device's remote.",helpful_answer
-106,"The sleep issue is the main problem, not the volume control.",help_request
-107,"Are the devices actually going to sleep, or are the Firesticks malfunctioning? And which remote are you using?",helpful_answer
-108,"I solved it - instead of stopping the program when I switch rooms, I now just change the channel and mute the sound. It keeps playing, never sleeps, and I can pick back up quickly.",help_request
-109,"Please describe to me which live streaming platform is best?",help_request
-110,"That's a very vague question, it'd be better if you gave more detail about what you're asking.",noise
-111,"I agree we need more details, but Twitch is the top dog right now. Amazon Livestreams is pretty sad - almost amateur-hour Home Shopping Network. StreamLabs and OBS Studio both integrate well with the major platforms.",helpful_answer
-112,"For games, Twitch and Youtube are the best.",noise
-113,"YouTube Live or Twitch are usually easiest because they already have a big audience and built-in chat. If you get buffering or quality issues, the first thing to check is your upload speed and stream bitrate.",helpful_answer
-114,"Locking this to prevent any more posts to a question asked 5 years ago.",noise
-115,"My Firestick 4K had a reset and now at the sign-in page the remote is completely dead. I've tried multiple remotes with fresh batteries, the Home-button pairing, and various button combos with no luck. Are there any ADB reset options?",help_request
-116,"Hold Back and Home together for 10 seconds to unpair/clear the remote, then Home alone for 10 seconds to re-pair. There's a troubleshooting guide here that walks through it.",helpful_answer
-117,"I've been trying that method for a few days now with no results.",help_request
-118,"Take the batteries out, hold the power button for 30 seconds, put the batteries back in, and then try to pair again.",helpful_answer
-119,"Tried that too, no change. Is there an ADB reset I can do?",help_request
-120,"Here's a FireTV Tricks article on how to factory reset a Firestick via ADB.",helpful_answer
-121,"It could be any number of things: dead batteries, a pairing problem, range, interference, physical damage, software, or a faulty remote. See this article for more.",noise
-122,"Is there any good DVR software I can use on Windows 10 to record antenna TV?",help_request
-123,"Sorry, I can't edit my post for some reason. I'm trying to record a TV show I can't get on any streaming service - just looking for software to do that.",help_request
-124,"Take a look at NextPVR, it should do what you want. Welcome to the forum.",helpful_answer
-125,"see attached.",noise
-126,"Plex can do this - here's a link to its DVR recording setup guide. MythTV is another option; it was great but it's a fair bit of work to set up on Windows.",helpful_answer
-127,"Plex is generally considered the state of the art for PVR-type software on Windows, with lots of features and plugins. MythTV is fussier to set up but its commercial-skipping is excellent.",helpful_answer
-128,"I have an iPhone 10 and a 13 Pro Max, and a Sony TV (model KD-65A8H). I'd like to do video calls or screen-mirror from the phone to the TV instead of holding the phone for FaceTime/WhatsApp calls.",help_request
-129,"Only with a Firestick or a cable.",noise
-130,"You can use AirPlay to mirror the iPhone screen to your Sony TV - it's built into the phone.",helpful_answer
-131,"How do I screen mirror from iPhone to a Sony KD-65A7H? [link removed by moderator]",noise
-132,"Check your television's user manual.",noise
-133,"I'm getting weird buffering on my Nexus Player streaming over 5GHz from my Rpi4 Plex server. Direct play of a low-bitrate file (h264 AAC 720p 1Mbps) lags, but with transcoding enabled it's basically fine. iPerf3 between my PC and the Nexus Player shows about 140Mbps over 30 seconds, and the device's own speed test shows 70Mbps down.",help_request
-134,"Looks like it's a Nexus Player hardware limitation. My TV can stream 4K via the built-in Plex app, but the NP can't handle anything that intensive in Plex or any other player.",help_request
-135,"Try restarting your phone, restarting your home network, clearing the app's data, and improving your WiFi signal.",noise
-136,"Topic closed, spam magnet.",noise
-137,"I have a Linksys EA7500 v3 from June 2021. I'm on a 500 Mbps Spectrum connection but only get about 300 Mbps wirelessly, and my Roku TVs occasionally have connectivity issues. Can this router deliver the full speed, and what specs should I look for in a new one?",help_request
-138,"That model is really more like a 2018 design - check Linksys support for a firmware update. With all those devices pulling on your bandwidth you might want a faster plan, though on paper the EA7500 supports up to 1.9 Gbps Wi-Fi.",helpful_answer
-139,"So can the current router actually deliver 500 Mbps, and do I have to rent Spectrum's equipment to get their higher speeds?",help_request
-140,"I'd contact the manufacturer directly. Also check whether CTF (Cut Through Forwarding) is enabled, as that can affect throughput.",helpful_answer
-141,"I can connect my portable TV to the internet, but the Network menu asks me to enter IP, Netmask, Gateway and DNS. How do I find these?",help_request
-142,"Open a command prompt and run: ipconfig /all. Which set of IP addresses you use depends on whether the TV connects by wired or wireless.",helpful_answer
-143,"The TV model is a Technika 24F22B-HD/DVD and we connect through an EE Smarthub. The DNS seems to be the same as the Default Gateway.",help_request
-144,"I looked at the manual and it's sadly uninformative, but I noticed that as long as an Ethernet cable is connected there's a Mode slider at the top of that menu. Slide it to Auto and it should pick up the settings automatically.",helpful_answer
-145,"The TV's in another room. I tried entering the settings manually, no joy, and Automatic didn't work either.",help_request
-146,"Just to confirm - is there actually an Ethernet cable running from the TV to the EE Smarthub? This model won't connect wirelessly if that's what you were attempting.",helpful_answer
-147,"Are you saying I'd need an Ethernet cable connected to the TV all the time? I have a spare one, though it's not very long.",help_request
-148,"Well, I found a manual online and you're right - I do need to use an Ethernet cable, there's no other way. A pity!",help_request
-149,"I built a brand new i7 Coffee Lake HTPC, 32GB RAM, onboard Intel UHD graphics. YouTube plays 30fps videos fine but anything under that stutters. If I set the TV to 24 or 25 Hz those play smooth like butter.",help_request
-150,"I get the same stutters on my PC on Win 1809 and the 19H1 insider build. Firefox doesn't seem affected, so I think it's a bug with the chromium-based browsers.",helpful_answer
-151,"Have you installed all your device drivers? Open Device Manager and make sure there aren't any yellow warning triangles or red crosses.",helpful_answer
-152,"I even tried MS Edge and the apps, same issue.",help_request
-153,"I've checked everything possible - no conflicts, no generic drivers, except my TV shows up as a generic PnP monitor.",help_request
-154,"I've been using Firefox with Google as the default search to get around the stuttering. It really seems to be a bug in 1809.",helpful_answer
-155,"I had the exact same problem. I bought a 10/100/1000 switch, hooked both the TV and the PC to it, and the problem went away.",helpful_answer
-156,"There are serious latency issues in 1809 and 1903 that cause these stutters. It needs a fix from Microsoft but there's no word on when.",helpful_answer
-157,"I have an Arris modem/router combo from the cable company. My computer keeps dropping the wifi signal, and when I try to stream on the PC it buffers or pauses about every 30 seconds. Is there anything I can do to boost the signal to my PC?",help_request
-158,"I'd try PowerLine adapters. I have the TP-Link ones and they work just fine, and I've heard good things about Devolo too. Links to both here.",helpful_answer
-159,"How do I know which one to get, and how does it interact with the router/modem the cable company installed?",help_request
-160,"PowerLine adapters send data over your existing electrical wiring. One adapter plugs in near the router and connects to it with an Ethernet cable; the other goes in the room you want and provides Ethernet or wireless, depending on the model you buy.",helpful_answer
-161,"Thanks, I'll look into those suggestions.",noise
-162,"If you can manage it, a wired connection is worth considering - the signal quality is far better and it covers plenty of distance.",helpful_answer
-163,"The problem is the distance between where the modem is and my computer room. But I'd still really like to be able to stream, so thanks for all the help everyone.",help_request
-164,"I have Xfinity internet in a two-story home where the basement is a finished apartment. I stream Hulu + Live TV and it's mostly fine downstairs even through concrete, but I can't move the modem from one specific spot upstairs or the connection drops. Should I get a WiFi extender or a new router?",help_request
-165,"I'd avoid extenders since they cut your bandwidth. Better options: run an Ethernet cable, reposition the modem using a coax extension, or set up a second router in the basement as an access point connected over Ethernet.",helpful_answer
-166,"Have Xfinity replace the modem/router. Powerline adapters are another option, as long as both ends are on the same electrical circuit.",helpful_answer
-167,"The upstairs desktop uses hardwired Ethernet, while the basement TVs stream wirelessly through a Roku.",help_request
-168,"Since you already have Ethernet down there, add a router in the basement configured as an access point. A TP-Link Archer C7 would be plenty for typical basement coverage.",helpful_answer
-169,"Sorry, correction: the Ethernet only runs to the upstairs desktop. The basement TV relies entirely on WiFi through the Roku.",help_request
-170,"In that case, in order of best to worst: run Ethernet to a basement router (ideal), relocate the current modem with a shorter cable, use a quality extender with careful placement, or try powerline adapters - keeping in mind powerline depends on your home's electrical wiring.",helpful_answer
-171,"Roku SE vs the other basic Rokus? Saw this on Walmart a moment ago - is it worth it over the others?",help_request
-172,"Our Panasonic microwave seems to be interfering with the WiFi stream from my router to an Amazon Fire stick - it freezes with the loading circle and resumes once the microwave shuts off. I've checked for microwave leakage and moved the router with no luck. The devices are on separate circuits and over 40 feet apart.",help_request
-173,"Check the AC power sources for both the router and the Fire Stick - the wiring itself can act as an antenna and amplify interference. Moving the equipment onto different circuits can help.",helpful_answer
-174,"They're already on different circuits and well separated. I'm going to try wrapping the Fire Stick's DC power cable to see if that's where the interference is getting in.",help_request
-175,"It's likely spark generation between contacts somewhere. Power off equipment one piece at a time to find the source - dry joints (cracked solder joints that spark) are a common culprit.",helpful_answer
-176,"Switch your router from the 2.4GHz band to 5GHz - microwaves operate around 2.4GHz, so that should sidestep the interference.",helpful_answer
-177,"Can someone help me please, my Netflix account keeps messaging me that a new computer has signed in every time I sign in. I also think this might be causing the input delay I get in a game called Brawlhalla - like everything works but some hardware or software conflict is going on.",help_request
-178,"Change your account password. Also bear in mind that if you clear your IE/Edge cookies, you'll get that 'new sign-in' message each time you log back in.",helpful_answer
-179,"Thanks for the reply. But why would I change my password? And why are you giving me these specs?",help_request
-180,"What specs? Well, if you don't want others logging into your Netflix you change the password - and as I said, clearing your IE/Edge cookies will cause that new-login message when you sign back in.",helpful_answer
-181,"I still don't get it. How would anyone be able to sign into my account except me?",help_request
-182,"From a security standpoint, whenever I see strange logins I change my passwords right then and there - it's the first thing I do to stay safe.",helpful_answer
-183,"I just upgraded to gigabit Verizon. Can I keep my older G1100 router and add a tri-band WiFi 6 mesh system to put my Ring security system on a separate channel, or do both devices need to be WiFi 6?",help_request
-184,"The G1100 is actually an AC gateway capable of gigabit, not WiFi 4. Ring devices typically use b/g/n. Upgrading to a WiFi 6 router is worth it for security, traffic handling and ongoing updates, though it probably won't speed up the Ring or other older devices much.",helpful_answer
-185,"The issue isn't gigabit speed to the Ring, it's the lag and weak signal from having everything on the 2.4GHz channel - the bedroom smart TV buffers and uploads are slow upstairs. What does b/g/n mean, and would a mesh system like eero or Orbi help?",help_request
-186,"Your thinking is right. I'm a big fan of the Netgear.",noise
-187,"Upgrading to the new Verizon router improved my wired speeds but not the WiFi coverage. I'm thinking of a Netgear WiFi extender instead of an expensive mesh system after watching some positive reviews.",help_request
-188,"Is there a way, with software or hardware, to have my Roku tap into my home network when it's at a hotel, so it thinks it's still in my house?",help_request
-189,"Not exactly. Some of the newer Roku models have a feature called Hotel & Dorm Connect so you can use them on a hotel's network. What model of Roku do you have?",helpful_answer
-190,"Out of curiosity, do you ever use a VPN to connect back to your home PC while travelling? Here's an article on setting that up.",helpful_answer
-191,"I already connect the Roku to the hotel WiFi, but I hit content restrictions based on location. I want to tunnel through to my home network so it shows my home IP - hotels don't offer ethernet anymore.",help_request
-192,"My LG TV is normally on wifi but for the last 24 hours it won't connect. Our PlayStation and Chromecast also dropped off the wifi, yet both our phones and our Alexa are still connected and working fine.",help_request
-193,"Once in a blue moon I have to pull the plug on my Roku to reset it. I'd disconnect the TV from power for a couple of minutes before plugging it back in.",helpful_answer
-194,"I disconnected the TV overnight and it's still happening, and the PlayStation and Chromecast are the same. Phones, laptops and Alexa are all fine - it's very weird.",help_request
-195,"It might be worth resetting the router - not just powering it down, but pressing the reset button. If you do, have your device login info ready because you'll need to re-enter it.",helpful_answer
-196,"I'm downloading a 5GB Steam game update and the speed is terrible - it peaks at 3 MB/s then keeps dropping to 0. My PS4 hits 30 MB/s. No viruses, no background apps, but Resource Monitor shows 8 separate steam.exe processes.",help_request
-197,"Tell us your network setup (hardware and software). In the meantime, shut down all the Steam instances and try the download again.",helpful_answer
-198,"Check whether Windows Update is running in the background - it'll quietly eat your bandwidth.",helpful_answer
-199,"Try changing your DNS servers to Google's (8.8.8.8 and 8.8.4.4). You could also run a VPN trial to test whether your ISP is throttling you.",helpful_answer
-200,"I'm posting this as a streaming device issue because after 7 days of troubleshooting by several people there's still no fix. The YouTube app fails on my Fire TV Sticks (4K, 1st and 2nd gen) - it won't load, or loads with no content, or won't play. Login and activation also fail. It survives resets, reinstalls, network tests and ISP checks, but YouTube works fine on my MacBook, laptops and Android phone.",help_request
-201,"YouTube pulled the original app off the Fire Stick for some reason, then brought it back as YouTube TV. Try finding an alternative YouTube app, or use the web browser version via the Fire Stick's HTML5 support.",helpful_answer
-202,"Yeah, there are so many problems with YouTube on the Fire TV stick. I don't get how these big tech giants let this happen.",noise
-203,"My streaming devices (an HTPC and a Raspberry Pi) access my NAS, and all of a sudden the media players can't stream a single thing, including files on the NAS. The menus load fine, other devices can reach the files normally, and modem/router resets and cache clearing did nothing.",help_request
-204,"Fixed it - disabling UPnP on my device seems to have solved the problem. Could someone help me understand why UPnP would mess things up like that?",help_request
-205,"Which device did you disable UPnP on, and what OS is it running? Honestly UPnP has well-documented security vulnerabilities and it's worth asking why it's needed at all - here are some links on the risks and its role in DDoS amplification attacks.",helpful_answer
-206,"I want one dedicated PC in my house to stream movies wirelessly to my other devices, but I don't have internet. What do I need to do to make the PC visible to the computers and TVs? Is it as simple as buying a router and setting it up as if I had internet, or is there more to it?",help_request
-207,"I have a setup like that at home. All you really need is a wireless router. You could even get a 3G/4G router so you can add mobile broadband later.",helpful_answer
-208,"I forgot to mention - you'll also need a DLNA server installed on the PC, like Mezzmo or Serviio, or something more advanced like Plex.",helpful_answer
+1,"WHICH streaming device to replace Roku? I watch mostly YouTube TV library recordings and Netflix on standard (non-4K) TVs. I need a remote with power/volume/mute and 30-second skip forward and back which I use constantly. Would Chromecast or Fire Stick be better, and do they support commercial skipping on recorded shows?",hot_take
+2,"Look at the review articles on CNET and PCMag and figure out your own specifications from there.",reaction
+3,"Fire Stick or NVIDIA Shield.",reaction
+4,"Those review articles don't actually answer my question about whether either device lets you skip commercials on recorded shows. That's the whole reason I'm asking here.",hot_take
+5,"I'd say NVIDIA Shield is the best option and the Fire Series would be next. Bear in mind though that some of these service issues can follow you regardless of which hardware you pick.",analysis
+6,"Check out this great TV streaming service, sign up here for the best channels and prices!",reaction
+7,"You should remember the people answering here are unpaid volunteers, so watch the attitude. You could try the Roku mobile apps or just upgrade to a Smart TV.",reaction
+8,"Fire TV Stick or Chromecast with Google TV would both work well for you. I've had fewer playback issues with those than with the older Roku Express models.",analysis
+9,"Locking this one. Responses to a topic this old aren't likely to be useful to anyone now.",reaction
+10,"I bought a Netgear AC1900 USB adapter and accidentally misconfigured my router, so I upgraded to a BE6500 RS200. My 10+ year old Win7 tower rejected the setup links as unsafe certificates but my laptop had no problem, so I set it up from the laptop. Best wifi speed before was 120 megs, now it's consistently 220-240+. Totally freaked me out in a good way.",hot_take
+11,"Verify the speeds actually match your internet plan, and check the router for a firmware update. Curious why the tower hit certificate issues but the laptop didn't?",analysis
+12,"The tower runs Windows 7 with a bunch of security add-ons, so it's impractical to disable them all. I was just happy to find another way to get it set up.",hot_take
+13,"Yeah, router troubleshooting can be a real headache. I feel your pain.",reaction
+14,"Well, the router died overnight - no WiFi and the indicator lights are gone. Dreading the support call already.",hot_take
+15,"Thanks Pkshadow, that was good info.",reaction
+16,"It's all sorted now, the downstairs laptop matches the upstairs tower. Could a mod please remove the photo I posted earlier?",reaction
+17,"The certificate failures could come down to DNS resolution differences, or an IPv6/IPv4 fallback behaving differently between the two machines.",analysis
+18,"I'm getting intermittent UPnP streaming problems on Windows 11. I use Foobar/MediaMonkey as control points streaming FLAC to a Mano streamer (piCore - LMS) over a wired connection. One time it works fine for hours, but after the next boot or next day it does not work at all.",hot_take
+19,"Check the device drivers in Device Manager, and stop Windows Update from auto-updating your sound device drivers - that driver instability can cause exactly this kind of thing.",analysis
+20,"Are you using a static IP for the streamer, or is it on DHCP?",analysis
+21,"The picore player uses DHCP, but the IP address has stayed the same for two years, so I doubt the address is changing on me.",hot_take
+22,"That's a MAGNA HIFI MANO ULTRA MKII running piCorePlayer v8.0.0 with Squeezelite v1.9.9-1430-pCP. Here's the manual link for the advanced configuration so you can check the service startup order.",analysis
+23,"I found a workaround: if Foobar fails to connect, launching MediaMonkey afterwards gets playback working in Foobar again. It stopped working on picore 9 though, so I reverted to 8.2.",hot_take
+24,"This is just scummy what Roku did, they made every one of their users sign new terms (so you can't sue them) right before the breach came out. The timing is suspicious.",hot_take
+25,"I suggest they already knew. Keep an eye out for a class action.",reaction
+26,"Assuming what Roku has said about how the account info was obtained is true, the Roku customer is to blame. The credentials were almost certainly stolen from other data breaches, not from Roku's own systems.",analysis
+27,"I never got an email from Roku either, but I changed my password anyway just to be safe.",reaction
+28,"The fact that you weren't notified at all is suspicious and is reason enough not to trust or use Roku. A responsible company notifies all of its users during a breach.",analysis
+29,"I still think they had foreknowledge and pushed the new terms to shield themselves legally.",reaction
+30,"Notifying only the ~15,000 affected accounts is actually proper protocol when the credentials came from an external source rather than their own systems.",analysis
+31,"How safe is it really to let your browser store passwords, then?",hot_take
+32,"Industry best practice is still a company-wide notification when there's any breach, even if only some accounts were used.",analysis
+33,"And for what it's worth, my credentials were compromised through other means, not through browser storage.",analysis
+34,"There's a YouTube video by Louis that goes into this and backs up the skepticism about Roku.",reaction
+35,"How do I choose the best VPN between VPN Unlimited and PIA (Private Internet Access) for streaming?",hot_take
+36,"For a streaming VPN, weigh the server network, speed, streaming compatibility, security, ease of use, pricing, and a strict no-logs policy. The no-logs commitment matters most if privacy is your concern.",analysis
+37,"Using express vpn, fast and reliable and also safe, dont go for free vpn.",reaction
+38,"Your suggestions are now moving from next to useless into outright promotion of a product without any of the explanation that's needed.",reaction
+39,"very helpful comment, i read it, thanks for sharing!",reaction
+40,"I'm trying to add apps to my LG smart TV to get around the ads but I can't seem to add them. The built-in YouTube app is so limited.",hot_take
+41,"LG TVs can't run Android apps - the clue is in the name, LG Web OS. It's a proprietary system and you can't sideload onto it. Cast from your phone to the TV instead.",analysis
+42,"I hate that stupid youtube app. It has absolutely nothing. Maybe I'll just get a Fire Stick.",reaction
+43,"If you did get a Firestick you'd at least have the option of sideloading apps - though honestly the YouTube app looks almost identical on it too.",analysis
+44,"Next time I'm gettin' a better tv. Sick of LG's ads and tracking software and having to hack around their limits.",reaction
+45,"A laptop and an HDMI cable? That's what my wife uses.",analysis
+46,"I think you can use a cabled connection or like you say an HDMI. Probably better control than a Chromecast anyway.",reaction
+47,"I have my tower PC connected to the TV with a 5 metre HDMI lead, and I control it from the couch with a backlit wireless keyboard that has a built-in touchpad. Works great.",analysis
+48,"I think almost any reasonably modern laptop will connect fine to a current TV over HDMI.",analysis
+49,"I'd like to Thank you PaperClip!!! Got it working with Windows Connect once I disabled Bluetooth. I've been watching bleep ever since.",reaction
+50,"When I do it on my TV, I click on Connect and Windows scans for devices, then it shows up.",analysis
+51,"I don't get a Duplicate option. It only shows up if I go into the different screen settings.",hot_take
+52,"After you've connected, click Connect again and you'll see options in blue writing for the projection/mirror mode. I've attached screenshots showing where.",analysis
+53,"I'm not sure it appears 'Blue' lol. It shows highlighted. But I see the menu now.",reaction
+54,"Just wanted to say I picked up a Targus laptop cooling pad at a secondhand store for $10. So lucky, it really cut down the heat while streaming.",reaction
+55,"My Firestick 4K now plays show/movie trailers in French, Italian or Spanish for no reason, and factory resets do nothing. It's been unreliable for months.",hot_take
+56,"No idea, other than a friend went through about 6 of them last year.",reaction
+57,"You'd think with Amazon's profit margins they could afford to write software that actually works.",reaction
+58,"On top of that, my watchlist items aren't even showing up anymore. The problems keep piling on.",hot_take
+59,"I think that same friend ended up switching to Chromecast because of problems like these.",reaction
+60,"Wow.",reaction
+61,"Amazon announced hardware department layoffs in late 2022, so I doubt these problems get fixed any time soon.",reaction
+62,"And the customer service call was painful - the rep asked me the exact same question 5 times despite my answering it.",reaction
+63,"Amazon doesn't even warn you AFTER it's happened that content was removed while you had it paused. Terrible experience.",reaction
+64,"The Amazon Firestick is used as a streaming device, period. The rep was probably just trying to confirm which app you meant, which is a reasonable question.",analysis
+65,"Remember when streaming was going to be so wonderful?",reaction
+66,"After eight months and several firmware updates there's been no change, so I'm just going to get a used Nvidia Shield Pro.",reaction
+67,"For what it's worth I haven't had any real issues with a FireStick Lite. Makes me wonder if some of this is location or network related on your end.",analysis
+68,"Are the cheap Android boxes a malware risk? Thanks for the input, I'll try the Nvidia Shield eventually.",hot_take
+69,"It's the no-name boxes sold through online marketplaces that are the problematic ones for malware. You can mitigate a lot of it with PiHole network filtering.",analysis
+70,"Hello, I have a streaming issue and I don't see a forum sub-topic where I can get help. Where do I get assistance here?",hot_take
+71,"Describe your issue - that'll help us work out which forum to move your topic to, such as External Hardware.",analysis
+72,"My new LG Smart TV freezes and buffers for 20-30 seconds with Roku, while two other TVs with Roku sticks work fine. I'd rather troubleshoot it than return it.",hot_take
+73,"Here's the link to the Network Streaming Devices forum section.",reaction
+74,"Check the Roku connection speed, then remove the device and swap it with one of your working units, and try different HDMI ports. You'll find the speed under Settings > Network > About.",analysis
+75,"The Roku is built into the TV, not a separate device, and I'm having trouble even finding the Roku settings.",hot_take
+76,"What's the exact model number of the TV?",analysis
+77,"On an LG Roku TV, press the Home button on the remote and you'll get to the settings from there - here are the steps.",analysis
+78,"Always supply make/model. Note: NEW TV. Call LG.",reaction
+79,"The model is 50UT7570PUB. I'm honestly not even sure whether Roku is involved in the problem.",hot_take
+80,"Here's a link to the full specifications for that TV.",analysis
+81,"Are there any truly free VPNs available? Most of the ones I've seen say they're free but then charge once you get into them. Also, does a Chromebook come with a free VPN built in?",hot_take
+82,"Take a look at ProtonVPN and Windscribe - both have genuine free tiers, though with some feature limitations.",analysis
+83,"On ProtonVPN's free version you can only connect to Japan, the Netherlands and the USA, and the bandwidth is limited.",analysis
+84,"There's a MakeUseOf article that compares the free VPN services and their speeds - worth a read.",analysis
+85,"Try PureVPN, they have a 7-day risk-free trial with all features for new users.",reaction
+86,"Chromebooks have built-in VPN support for L2TP over IPsec connections, though you may need certificates depending on the network type.",analysis
+87,"I've used Hola VPN, Touch VPN and ProtonVPN without any issues.",reaction
+88,"ProtonVPN's paid service is good, they've had Black Friday discounts before.",reaction
+89,"I recommend HolaVPN.",reaction
+90,"You could try SPL VPN, iTopVPN, or NordVPN - SPL VPN is my favorite among the free ones.",reaction
+91,"I've been looking for a good VPN and there are so many out there. What I want: works on pc, mac, firestick, amazon prime, lets me jump between countries to watch shows there, and not too expensive.",hot_take
+92,"Here, let me google that for you.",reaction
+93,"ProtonVPN's free tier is a good start. For comparing options properly, check thatoneprivacysite.net and privacytools.io.",analysis
+94,"Keep in mind a VPN usually slows your network speed, so test with the free trials before paying for anything.",analysis
+95,"Install HMA VPN, pick a location in the country whose shows you want, and you can also just leave it on for normal browsing.",analysis
+96,"Are you after free or paid, and what OS? I'd steer clear of Hola because of its data practices - there are reviews on vpntesting.com that go into it.",analysis
+97,"I'd avoid free VPNs. NordVPN is based in Panama with no legal logging requirements, and I've used it reliably for 3+ years.",analysis
+98,"Mullvad is worth a look - about 5 euros a month, reliable, and it takes lots of different payment methods.",analysis
+99,"Try SPL VPN, Secure Light Speed VPN, or Ryn VPN. SPL is popular here in Qatar and has a no-log policy.",reaction
+100,"I use Firesticks for my TVs but I spend a lot of time waking up the next device and TV and stepping through everything to get back to where I was when I move between rooms. They're slow, they sleep too soon, and I can't find a setting to stop it.",hot_take
+101,"Roku Express is an alternative worth considering - it lets you resume streaming with a single click within a 2-hour window, after which it takes a couple more steps.",analysis
+102,"I had a bad experience with Roku back when it had compatibility issues with YouTube TV and needed extra steps to get into the app. Can you tell me more specifically about Roku's speed now?",hot_take
+103,"Test it yourself with a Roku, and note that if you keep the Roku powered on all the time the startup drops to just a few seconds.",analysis
+104,"I didn't keep the Roku, unfortunately. I'm really after recommendations from people who've used several streaming platforms.",hot_take
+105,"You can use your TV's own remote for volume rather than the streaming device's remote.",analysis
+106,"The sleep issue is the main problem, not the volume control.",hot_take
+107,"Are the devices actually going to sleep, or are the Firesticks malfunctioning? And which remote are you using?",analysis
+108,"I solved it - instead of stopping the program when I switch rooms, I now just change the channel and mute the sound. It keeps playing, never sleeps, and I can pick back up quickly.",hot_take
+109,"Please describe to me which live streaming platform is best?",hot_take
+110,"That's a very vague question, it'd be better if you gave more detail about what you're asking.",reaction
+111,"I agree we need more details, but Twitch is the top dog right now. Amazon Livestreams is pretty sad - almost amateur-hour Home Shopping Network. StreamLabs and OBS Studio both integrate well with the major platforms.",analysis
+112,"For games, Twitch and Youtube are the best.",reaction
+113,"YouTube Live or Twitch are usually easiest because they already have a big audience and built-in chat. If you get buffering or quality issues, the first thing to check is your upload speed and stream bitrate.",analysis
+114,"Locking this to prevent any more posts to a question asked 5 years ago.",reaction
+115,"My Firestick 4K had a reset and now at the sign-in page the remote is completely dead. I've tried multiple remotes with fresh batteries, the Home-button pairing, and various button combos with no luck. Are there any ADB reset options?",hot_take
+116,"Hold Back and Home together for 10 seconds to unpair/clear the remote, then Home alone for 10 seconds to re-pair. There's a troubleshooting guide here that walks through it.",analysis
+117,"I've been trying that method for a few days now with no results.",hot_take
+118,"Take the batteries out, hold the power button for 30 seconds, put the batteries back in, and then try to pair again.",analysis
+119,"Tried that too, no change. Is there an ADB reset I can do?",hot_take
+120,"Here's a FireTV Tricks article on how to factory reset a Firestick via ADB.",analysis
+121,"It could be any number of things: dead batteries, a pairing problem, range, interference, physical damage, software, or a faulty remote. See this article for more.",reaction
+122,"Is there any good DVR software I can use on Windows 10 to record antenna TV?",hot_take
+123,"Sorry, I can't edit my post for some reason. I'm trying to record a TV show I can't get on any streaming service - just looking for software to do that.",hot_take
+124,"Take a look at NextPVR, it should do what you want. Welcome to the forum.",analysis
+125,"see attached.",reaction
+126,"Plex can do this - here's a link to its DVR recording setup guide. MythTV is another option; it was great but it's a fair bit of work to set up on Windows.",analysis
+127,"Plex is generally considered the state of the art for PVR-type software on Windows, with lots of features and plugins. MythTV is fussier to set up but its commercial-skipping is excellent.",analysis
+128,"I have an iPhone 10 and a 13 Pro Max, and a Sony TV (model KD-65A8H). I'd like to do video calls or screen-mirror from the phone to the TV instead of holding the phone for FaceTime/WhatsApp calls.",hot_take
+129,"Only with a Firestick or a cable.",reaction
+130,"You can use AirPlay to mirror the iPhone screen to your Sony TV - it's built into the phone.",analysis
+131,"How do I screen mirror from iPhone to a Sony KD-65A7H? [link removed by moderator]",reaction
+132,"Check your television's user manual.",reaction
+133,"I'm getting weird buffering on my Nexus Player streaming over 5GHz from my Rpi4 Plex server. Direct play of a low-bitrate file (h264 AAC 720p 1Mbps) lags, but with transcoding enabled it's basically fine. iPerf3 between my PC and the Nexus Player shows about 140Mbps over 30 seconds, and the device's own speed test shows 70Mbps down.",hot_take
+134,"Looks like it's a Nexus Player hardware limitation. My TV can stream 4K via the built-in Plex app, but the NP can't handle anything that intensive in Plex or any other player.",hot_take
+135,"Try restarting your phone, restarting your home network, clearing the app's data, and improving your WiFi signal.",reaction
+136,"Topic closed, spam magnet.",reaction
+137,"I have a Linksys EA7500 v3 from June 2021. I'm on a 500 Mbps Spectrum connection but only get about 300 Mbps wirelessly, and my Roku TVs occasionally have connectivity issues. Can this router deliver the full speed, and what specs should I look for in a new one?",hot_take
+138,"That model is really more like a 2018 design - check Linksys support for a firmware update. With all those devices pulling on your bandwidth you might want a faster plan, though on paper the EA7500 supports up to 1.9 Gbps Wi-Fi.",analysis
+139,"So can the current router actually deliver 500 Mbps, and do I have to rent Spectrum's equipment to get their higher speeds?",hot_take
+140,"I'd contact the manufacturer directly. Also check whether CTF (Cut Through Forwarding) is enabled, as that can affect throughput.",analysis
+141,"I can connect my portable TV to the internet, but the Network menu asks me to enter IP, Netmask, Gateway and DNS. How do I find these?",hot_take
+142,"Open a command prompt and run: ipconfig /all. Which set of IP addresses you use depends on whether the TV connects by wired or wireless.",analysis
+143,"The TV model is a Technika 24F22B-HD/DVD and we connect through an EE Smarthub. The DNS seems to be the same as the Default Gateway.",hot_take
+144,"I looked at the manual and it's sadly uninformative, but I noticed that as long as an Ethernet cable is connected there's a Mode slider at the top of that menu. Slide it to Auto and it should pick up the settings automatically.",analysis
+145,"The TV's in another room. I tried entering the settings manually, no joy, and Automatic didn't work either.",hot_take
+146,"Just to confirm - is there actually an Ethernet cable running from the TV to the EE Smarthub? This model won't connect wirelessly if that's what you were attempting.",analysis
+147,"Are you saying I'd need an Ethernet cable connected to the TV all the time? I have a spare one, though it's not very long.",hot_take
+148,"Well, I found a manual online and you're right - I do need to use an Ethernet cable, there's no other way. A pity!",hot_take
+149,"I built a brand new i7 Coffee Lake HTPC, 32GB RAM, onboard Intel UHD graphics. YouTube plays 30fps videos fine but anything under that stutters. If I set the TV to 24 or 25 Hz those play smooth like butter.",hot_take
+150,"I get the same stutters on my PC on Win 1809 and the 19H1 insider build. Firefox doesn't seem affected, so I think it's a bug with the chromium-based browsers.",analysis
+151,"Have you installed all your device drivers? Open Device Manager and make sure there aren't any yellow warning triangles or red crosses.",analysis
+152,"I even tried MS Edge and the apps, same issue.",hot_take
+153,"I've checked everything possible - no conflicts, no generic drivers, except my TV shows up as a generic PnP monitor.",hot_take
+154,"I've been using Firefox with Google as the default search to get around the stuttering. It really seems to be a bug in 1809.",analysis
+155,"I had the exact same problem. I bought a 10/100/1000 switch, hooked both the TV and the PC to it, and the problem went away.",analysis
+156,"There are serious latency issues in 1809 and 1903 that cause these stutters. It needs a fix from Microsoft but there's no word on when.",analysis
+157,"I have an Arris modem/router combo from the cable company. My computer keeps dropping the wifi signal, and when I try to stream on the PC it buffers or pauses about every 30 seconds. Is there anything I can do to boost the signal to my PC?",hot_take
+158,"I'd try PowerLine adapters. I have the TP-Link ones and they work just fine, and I've heard good things about Devolo too. Links to both here.",analysis
+159,"How do I know which one to get, and how does it interact with the router/modem the cable company installed?",hot_take
+160,"PowerLine adapters send data over your existing electrical wiring. One adapter plugs in near the router and connects to it with an Ethernet cable; the other goes in the room you want and provides Ethernet or wireless, depending on the model you buy.",analysis
+161,"Thanks, I'll look into those suggestions.",reaction
+162,"If you can manage it, a wired connection is worth considering - the signal quality is far better and it covers plenty of distance.",analysis
+163,"The problem is the distance between where the modem is and my computer room. But I'd still really like to be able to stream, so thanks for all the help everyone.",hot_take
+164,"I have Xfinity internet in a two-story home where the basement is a finished apartment. I stream Hulu + Live TV and it's mostly fine downstairs even through concrete, but I can't move the modem from one specific spot upstairs or the connection drops. Should I get a WiFi extender or a new router?",hot_take
+165,"I'd avoid extenders since they cut your bandwidth. Better options: run an Ethernet cable, reposition the modem using a coax extension, or set up a second router in the basement as an access point connected over Ethernet.",analysis
+166,"Have Xfinity replace the modem/router. Powerline adapters are another option, as long as both ends are on the same electrical circuit.",analysis
+167,"The upstairs desktop uses hardwired Ethernet, while the basement TVs stream wirelessly through a Roku.",hot_take
+168,"Since you already have Ethernet down there, add a router in the basement configured as an access point. A TP-Link Archer C7 would be plenty for typical basement coverage.",analysis
+169,"Sorry, correction: the Ethernet only runs to the upstairs desktop. The basement TV relies entirely on WiFi through the Roku.",hot_take
+170,"In that case, in order of best to worst: run Ethernet to a basement router (ideal), relocate the current modem with a shorter cable, use a quality extender with careful placement, or try powerline adapters - keeping in mind powerline depends on your home's electrical wiring.",analysis
+171,"Roku SE vs the other basic Rokus? Saw this on Walmart a moment ago - is it worth it over the others?",hot_take
+172,"Our Panasonic microwave seems to be interfering with the WiFi stream from my router to an Amazon Fire stick - it freezes with the loading circle and resumes once the microwave shuts off. I've checked for microwave leakage and moved the router with no luck. The devices are on separate circuits and over 40 feet apart.",hot_take
+173,"Check the AC power sources for both the router and the Fire Stick - the wiring itself can act as an antenna and amplify interference. Moving the equipment onto different circuits can help.",analysis
+174,"They're already on different circuits and well separated. I'm going to try wrapping the Fire Stick's DC power cable to see if that's where the interference is getting in.",hot_take
+175,"It's likely spark generation between contacts somewhere. Power off equipment one piece at a time to find the source - dry joints (cracked solder joints that spark) are a common culprit.",analysis
+176,"Switch your router from the 2.4GHz band to 5GHz - microwaves operate around 2.4GHz, so that should sidestep the interference.",analysis
+177,"Can someone help me please, my Netflix account keeps messaging me that a new computer has signed in every time I sign in. I also think this might be causing the input delay I get in a game called Brawlhalla - like everything works but some hardware or software conflict is going on.",hot_take
+178,"Change your account password. Also bear in mind that if you clear your IE/Edge cookies, you'll get that 'new sign-in' message each time you log back in.",analysis
+179,"Thanks for the reply. But why would I change my password? And why are you giving me these specs?",hot_take
+180,"What specs? Well, if you don't want others logging into your Netflix you change the password - and as I said, clearing your IE/Edge cookies will cause that new-login message when you sign back in.",analysis
+181,"I still don't get it. How would anyone be able to sign into my account except me?",hot_take
+182,"From a security standpoint, whenever I see strange logins I change my passwords right then and there - it's the first thing I do to stay safe.",analysis
+183,"I just upgraded to gigabit Verizon. Can I keep my older G1100 router and add a tri-band WiFi 6 mesh system to put my Ring security system on a separate channel, or do both devices need to be WiFi 6?",hot_take
+184,"The G1100 is actually an AC gateway capable of gigabit, not WiFi 4. Ring devices typically use b/g/n. Upgrading to a WiFi 6 router is worth it for security, traffic handling and ongoing updates, though it probably won't speed up the Ring or other older devices much.",analysis
+185,"The issue isn't gigabit speed to the Ring, it's the lag and weak signal from having everything on the 2.4GHz channel - the bedroom smart TV buffers and uploads are slow upstairs. What does b/g/n mean, and would a mesh system like eero or Orbi help?",hot_take
+186,"Your thinking is right. I'm a big fan of the Netgear.",reaction
+187,"Upgrading to the new Verizon router improved my wired speeds but not the WiFi coverage. I'm thinking of a Netgear WiFi extender instead of an expensive mesh system after watching some positive reviews.",hot_take
+188,"Is there a way, with software or hardware, to have my Roku tap into my home network when it's at a hotel, so it thinks it's still in my house?",hot_take
+189,"Not exactly. Some of the newer Roku models have a feature called Hotel & Dorm Connect so you can use them on a hotel's network. What model of Roku do you have?",analysis
+190,"Out of curiosity, do you ever use a VPN to connect back to your home PC while travelling? Here's an article on setting that up.",analysis
+191,"I already connect the Roku to the hotel WiFi, but I hit content restrictions based on location. I want to tunnel through to my home network so it shows my home IP - hotels don't offer ethernet anymore.",hot_take
+192,"My LG TV is normally on wifi but for the last 24 hours it won't connect. Our PlayStation and Chromecast also dropped off the wifi, yet both our phones and our Alexa are still connected and working fine.",hot_take
+193,"Once in a blue moon I have to pull the plug on my Roku to reset it. I'd disconnect the TV from power for a couple of minutes before plugging it back in.",analysis
+194,"I disconnected the TV overnight and it's still happening, and the PlayStation and Chromecast are the same. Phones, laptops and Alexa are all fine - it's very weird.",hot_take
+195,"It might be worth resetting the router - not just powering it down, but pressing the reset button. If you do, have your device login info ready because you'll need to re-enter it.",analysis
+196,"I'm downloading a 5GB Steam game update and the speed is terrible - it peaks at 3 MB/s then keeps dropping to 0. My PS4 hits 30 MB/s. No viruses, no background apps, but Resource Monitor shows 8 separate steam.exe processes.",hot_take
+197,"Tell us your network setup (hardware and software). In the meantime, shut down all the Steam instances and try the download again.",analysis
+198,"Check whether Windows Update is running in the background - it'll quietly eat your bandwidth.",analysis
+199,"Try changing your DNS servers to Google's (8.8.8.8 and 8.8.4.4). You could also run a VPN trial to test whether your ISP is throttling you.",analysis
+200,"I'm posting this as a streaming device issue because after 7 days of troubleshooting by several people there's still no fix. The YouTube app fails on my Fire TV Sticks (4K, 1st and 2nd gen) - it won't load, or loads with no content, or won't play. Login and activation also fail. It survives resets, reinstalls, network tests and ISP checks, but YouTube works fine on my MacBook, laptops and Android phone.",hot_take
+201,"YouTube pulled the original app off the Fire Stick for some reason, then brought it back as YouTube TV. Try finding an alternative YouTube app, or use the web browser version via the Fire Stick's HTML5 support.",analysis
+202,"Yeah, there are so many problems with YouTube on the Fire TV stick. I don't get how these big tech giants let this happen.",reaction
+203,"My streaming devices (an HTPC and a Raspberry Pi) access my NAS, and all of a sudden the media players can't stream a single thing, including files on the NAS. The menus load fine, other devices can reach the files normally, and modem/router resets and cache clearing did nothing.",hot_take
+204,"Fixed it - disabling UPnP on my device seems to have solved the problem. Could someone help me understand why UPnP would mess things up like that?",hot_take
+205,"Which device did you disable UPnP on, and what OS is it running? Honestly UPnP has well-documented security vulnerabilities and it's worth asking why it's needed at all - here are some links on the risks and its role in DDoS amplification attacks.",analysis
+206,"I want one dedicated PC in my house to stream movies wirelessly to my other devices, but I don't have internet. What do I need to do to make the PC visible to the computers and TVs? Is it as simple as buying a router and setting it up as if I had internet, or is there more to it?",hot_take
+207,"I have a setup like that at home. All you really need is a wireless router. You could even get a 3G/4G router so you can add mobile broadband later.",analysis
+208,"I forgot to mention - you'll also need a DLNA server installed on the PC, like Mezzmo or Serviio, or something more advanced like Plex.",analysis

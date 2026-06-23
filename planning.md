@@ -2,7 +2,7 @@
 
 TakeMeter is an LLM-based classifier that scores the **substance of a single forum
 post** in a tech-help community. Given the text of one post, it predicts whether
-the post is a request for help, a substantive answer, or low-value noise. The goal
+the post is a request for help, a substantive answer, or a low-value reaction. The goal
 is a classifier that could power a real community tool — e.g. surfacing the genuinely
 helpful replies in a long thread and filtering out the noise.
 
@@ -42,23 +42,23 @@ axis here is whether a post actually moves a problem toward resolution.
 
 Three labels, assigned along **intent + substance**.
 
-### `help_request`
-**Definition:** A post is `help_request` if its purpose is to obtain assistance —
+### `hot_take`
+**Definition:** A post is `hot_take` if its purpose is to obtain assistance —
 describing a technical problem, asking how to do something, or asking for a product
 recommendation — and this includes the original asker's follow-up posts that add
 diagnostic detail or clarify while they are still seeking a resolution.
 - *Example (id 1):* "WHICH streaming device to replace Roku? ... I need a remote with power/volume/mute and 30-second skip ... Would Chromecast or Fire Stick be better, and do they support commercial skipping on recorded shows?"
 - *Example (id 18):* "I'm getting intermittent UPnP streaming problems on Windows 11. I use Foobar/MediaMonkey ... streaming FLAC to a Mano streamer ... One time it works fine for hours, but after the next boot it does not work at all."
 
-### `helpful_answer`
-**Definition:** A post is `helpful_answer` if it is a reply that materially helps the
+### `analysis`
+**Definition:** A post is `analysis` if it is a reply that materially helps the
 asker by providing specific troubleshooting steps, a technical explanation, a
 *justified* recommendation, or relevant firsthand experience with reasoning.
 - *Example (id 22):* "That's a MAGNA HIFI MANO ULTRA MKII running piCorePlayer v8.0.0 with Squeezelite v1.9.9-1430-pCP. Here's the manual link for the advanced configuration so you can check the service startup order."
 - *Example (id 155):* "I had the exact same problem. I bought a 10/100/1000 switch, hooked both the TV and the PC to it, and the problem went away."
 
-### `noise`
-**Definition:** A post is `noise` if it is a reply (or non-help post) that adds little
+### `reaction`
+**Definition:** A post is `reaction` if it is a reply (or non-help post) that adds little
 actionable value — a vague one-liner, a "look it up yourself" deflection, a bare
 thanks or agreement, off-topic venting, moderator/thread housekeeping, or unexplained
 self-promotion or spam.
@@ -67,7 +67,7 @@ self-promotion or spam.
 
 **Tiebreaker (the single rule that keeps the labels precise):** for a short reply that
 *does* respond to the asker, ask "does it convey specific, actionable information or a
-reason?" — if yes it is `helpful_answer`, if no it is `noise`, *regardless of length*.
+reason?" — if yes it is `analysis`, if no it is `reaction`, *regardless of length*.
 
 ---
 
@@ -76,32 +76,32 @@ reason?" — if yes it is `helpful_answer`, if no it is `noise`, *regardless of 
 The genuinely ambiguous posts cluster on two boundaries. For each I commit to a rule
 now, before annotating, so the calls stay consistent.
 
-**(a) `helpful_answer` ↔ `noise` — the bare recommendation.** A reply that names a
+**(a) `analysis` ↔ `reaction` — the bare recommendation.** A reply that names a
 product or action but gives no reasoning (e.g. id 3 "Fire Stick or NVIDIA Shield."
 vs. id 5 "I'd say NVIDIA Shield is the best ... bear in mind some of these service
 issues follow you regardless of hardware"). This is the hardest and most common edge
 case.
 **Handling rule:** a name-drop with *no* justification, comparison, or caveat →
-`noise`; if it carries even one concrete reason, condition, or specific detail →
-`helpful_answer`.
+`reaction`; if it carries even one concrete reason, condition, or specific detail →
+`analysis`.
 
-**(b) `help_request` ↔ `noise` — the discussion/venting opener.** A thread-opening
+**(b) `hot_take` ↔ `reaction` — the discussion/venting opener.** A thread-opening
 post that airs a grievance or opinion rather than clearly asking for a fix (e.g. id
 24 "This is just scummy what Roku did ...").
 **Handling rule:** if the post invites a substantive response or contains an implied
-question, label `help_request`; if it is a pure rant seeking nothing, label `noise`.
+question, label `hot_take`; if it is a pure rant seeking nothing, label `reaction`.
 
-**(c) `help_request` ↔ `helpful_answer` — the asker's own follow-up.** When the
+**(c) `hot_take` ↔ `analysis` — the asker's own follow-up.** When the
 original asker posts new diagnostic info or even their own fix (e.g. id 108, id 204),
 it can read like an "answer."
 **Handling rule:** classify by author role — posts from the person seeking resolution
-stay `help_request` even when informative; only replies *from others that help the
-asker* are `helpful_answer`.
+stay `hot_take` even when informative; only replies *from others that help the
+asker* are `analysis`.
 
 A pointer to documentation is resolved by the same substance test as (a): a *specific*
 relevant resource that answers the question (id 84, a named article comparing free-VPN
-speeds) → `helpful_answer`; a generic "go research it / check the manual" brush-off
-(id 2, id 132) → `noise`.
+speeds) → `analysis`; a generic "go research it / check the manual" brush-off
+(id 2, id 132) → `reaction`.
 
 ### Documented difficult calls (actual posts I had to decide)
 
@@ -111,35 +111,35 @@ were genuinely hard, with the call I made and why.
 1. **id 5 — greg18:** *"I'd say NVIDIA Shield is the best option and the Fire Series
    would be next. Bear in mind though that some of these service issues can follow you
    regardless of which hardware you pick."*
-   **Candidates:** `helpful_answer` vs `noise`. It's mostly a bare ranking, which on
-   its own would be `noise` (cf. id 3, "Fire Stick or NVIDIA Shield.", which I *did*
-   label `noise`). **Decision: `helpful_answer`,** because the caveat — that the
+   **Candidates:** `analysis` vs `reaction`. It's mostly a bare ranking, which on
+   its own would be `reaction` (cf. id 3, "Fire Stick or NVIDIA Shield.", which I *did*
+   label `reaction`). **Decision: `analysis`,** because the caveat — that the
    problem may persist regardless of hardware — is a concrete, useful reason, and my
-   tiebreaker says any single real reason tips a reply to `helpful_answer`.
+   tiebreaker says any single real reason tips a reply to `analysis`.
 
 2. **id 24 — SuperSapien64:** *"This is just scummy what Roku did, they made every one
    of their users sign new terms (so you can't sue them) right before the breach came
    out. The timing is suspicious."*
-   **Candidates:** `help_request` vs `noise`. It reads like venting, which pulls toward
-   `noise`, but it's a thread opener that explicitly invites discussion and got ten
-   substantive replies. **Decision: `help_request`,** per edge-case rule (b): a
+   **Candidates:** `hot_take` vs `reaction`. It reads like venting, which pulls toward
+   `reaction`, but it's a thread opener that explicitly invites discussion and got ten
+   substantive replies. **Decision: `hot_take`,** per edge-case rule (b): a
    thread-opener that invites a substantive response is treated as a request for input,
-   not noise.
+   not a `reaction`.
 
 3. **id 108 — Odyssey42:** *"I solved it — instead of stopping the program when I switch
    rooms, I now just change the channel and mute the sound. It keeps playing, never
    sleeps, and I can pick back up quickly."*
-   **Candidates:** `help_request` vs `helpful_answer`. The content is a working
-   solution, which looks like a `helpful_answer`. **Decision: `help_request`,** per
+   **Candidates:** `hot_take` vs `analysis`. The content is a working
+   solution, which looks like a `analysis`. **Decision: `hot_take`,** per
    edge-case rule (c): I classify by author role, and this is the original asker
    resolving their own thread, not another member helping them.
 
 4. **id 84 — saw101:** *"There's a MakeUseOf article that compares the free VPN services
    and their speeds — worth a read."*
-   **Candidates:** `helpful_answer` vs `noise`. A link with no summary can be a lazy
-   brush-off. **Decision: `helpful_answer`,** because it names a *specific* resource
+   **Candidates:** `analysis` vs `reaction`. A link with no summary can be a lazy
+   brush-off. **Decision: `analysis`,** because it names a *specific* resource
    that directly addresses the asker's question — unlike the generic "check your user
-   manual" (id 132), which I labeled `noise`.
+   manual" (id 132), which I labeled `reaction`.
 
 ---
 
@@ -150,12 +150,12 @@ were genuinely hard, with the call I made and why.
 - **Collected so far:** **208 labeled posts across 31 threads**, stored in
   [data/labeled_dataset.csv](data/labeled_dataset.csv) with columns `id`, `text`,
   `label`.
-- **Current distribution:** `helpful_answer` 86 · `help_request` 70 · `noise` 52.
+- **Current distribution:** `analysis` 86 · `hot_take` 70 · `reaction` 52.
 - **Target:** at least 200 labeled posts (met), with **no class below ~40 examples**
   so every class is learnable and the confusion matrix is meaningful. My rough aim is
   roughly 60–90 per class rather than a forced even split, since the natural class
   mix is itself informative.
-- **If a label is underrepresented after 200 examples:** `noise` is the rarest class
+- **If a label is underrepresented after 200 examples:** `reaction` is the rarest class
   and the one at risk. My mitigation, in order: (1) **targeted collection** — revisit
   long threads and very old/locked threads, which concentrate bare one-liners, thanks,
   venting, and moderator housekeeping; (2) sample threads with high reply counts where
@@ -167,20 +167,20 @@ were genuinely hard, with the call I made and why.
 
 ## 5. Evaluation metrics
 
-The classes are imbalanced (noise ≈ 25%), so **accuracy alone is misleading** — a model
-could score ~75% by being good at the two larger classes while failing on `noise`,
+The classes are imbalanced (`reaction` ≈ 25%), so **accuracy alone is misleading** — a model
+could score ~75% by being good at the two larger classes while failing on `reaction`,
 which is the class a real moderation/curation tool most needs to catch. I will report:
 
 - **Per-class precision, recall, and F1** — the primary metrics. They tell me, for
   each label, both how often the model is right when it predicts that label
   (precision) and how many true cases it catches (recall). I especially care about
-  **`helpful_answer` recall** (a curation tool must not hide good answers) and
-  **`noise` precision** (a filter must not wrongly suppress real help).
+  **`analysis` recall** (a curation tool must not hide good answers) and
+  **`reaction` precision** (a filter must not wrongly suppress real help).
 - **Macro-averaged F1** — the single headline number, because it weights all three
   classes equally and refuses to let strong performance on the big classes paper over
-  weak performance on `noise`.
+  weak performance on `reaction`.
 - **Confusion matrix** ([results/confusion_matrix.png](results/confusion_matrix.png))
-  — to see *where* errors go. I expect the `helpful_answer`↔`noise` boundary (edge
+  — to see *where* errors go. I expect the `analysis`↔`reaction` boundary (edge
   case a) to be the dominant error cell, and the matrix lets me confirm or refute that.
 - **Overall accuracy** — reported for context only, not as the success criterion.
 
@@ -197,9 +197,9 @@ These thresholds are set in advance so I can objectively judge the outcome:
   F1 **≥ 0.60**, AND overall accuracy **≥ 0.75**.
 - **"Good enough to deploy" in a real community curation tool:** macro-F1 **≥ 0.80**,
   with two task-specific safety constraints:
-  - **`helpful_answer` recall ≥ 0.85** — the tool must surface at least 85% of genuinely
+  - **`analysis` recall ≥ 0.85** — the tool must surface at least 85% of genuinely
     helpful replies; hiding good answers is the worst failure for a curation feature.
-  - **`noise` precision ≥ 0.80** — when the tool flags a post as noise, it must be
+  - **`reaction` precision ≥ 0.80** — when the tool flags a post as `reaction`, it must be
     right at least 80% of the time, so it rarely suppresses real help.
 - **Stretch:** macro-F1 ≥ 0.85 with no per-class F1 below 0.78.
 
@@ -216,8 +216,8 @@ three points where it genuinely helps a labeling/evaluation workflow.
 
 ### 7.1 Label stress-testing (do this *before* annotating the full set)
 I will give an LLM (Claude) my three label definitions plus the edge-case rules in §3
-and ask it to generate **5–10 posts that deliberately sit on the `helpful_answer` ↔
-`noise` and `help_request` ↔ `noise` boundaries**. If I cannot assign each generated
+and ask it to generate **5–10 posts that deliberately sit on the `analysis` ↔
+`reaction` and `hot_take` ↔ `reaction` boundaries**. If I cannot assign each generated
 post to exactly one label using my current rules, the definitions are too loose and I
 will tighten them (most likely by sharpening the §2 tiebreaker) *before* finalizing
 annotations. These generated posts are for definition-testing only and will **not** be
@@ -256,9 +256,9 @@ doesn't support.
 
 ## 9. Risks & limitations
 
-- **Class imbalance:** `noise` is the smallest class; macro-averaged metrics guard
+- **Class imbalance:** `reaction` is the smallest class; macro-averaged metrics guard
   against this hiding poor performance.
-- **Boundary ambiguity:** the `helpful_answer` ↔ `noise` line (bare vs. justified
+- **Boundary ambiguity:** the `analysis` ↔ `reaction` line (bare vs. justified
   recommendations) is the hardest call and the likeliest source of model confusion.
 - **Single annotator + AI pre-labeling:** labels reflect one reviewer's judgment on top
   of an AI's guesses; the human-labeled test split mitigates circularity but not
