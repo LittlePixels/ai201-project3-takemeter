@@ -103,6 +103,44 @@ relevant resource that answers the question (id 84, a named article comparing fr
 speeds) → `helpful_answer`; a generic "go research it / check the manual" brush-off
 (id 2, id 132) → `noise`.
 
+### Documented difficult calls (actual posts I had to decide)
+
+These are specific rows in [data/labeled_dataset.csv](data/labeled_dataset.csv) that
+were genuinely hard, with the call I made and why.
+
+1. **id 5 — greg18:** *"I'd say NVIDIA Shield is the best option and the Fire Series
+   would be next. Bear in mind though that some of these service issues can follow you
+   regardless of which hardware you pick."*
+   **Candidates:** `helpful_answer` vs `noise`. It's mostly a bare ranking, which on
+   its own would be `noise` (cf. id 3, "Fire Stick or NVIDIA Shield.", which I *did*
+   label `noise`). **Decision: `helpful_answer`,** because the caveat — that the
+   problem may persist regardless of hardware — is a concrete, useful reason, and my
+   tiebreaker says any single real reason tips a reply to `helpful_answer`.
+
+2. **id 24 — SuperSapien64:** *"This is just scummy what Roku did, they made every one
+   of their users sign new terms (so you can't sue them) right before the breach came
+   out. The timing is suspicious."*
+   **Candidates:** `help_request` vs `noise`. It reads like venting, which pulls toward
+   `noise`, but it's a thread opener that explicitly invites discussion and got ten
+   substantive replies. **Decision: `help_request`,** per edge-case rule (b): a
+   thread-opener that invites a substantive response is treated as a request for input,
+   not noise.
+
+3. **id 108 — Odyssey42:** *"I solved it — instead of stopping the program when I switch
+   rooms, I now just change the channel and mute the sound. It keeps playing, never
+   sleeps, and I can pick back up quickly."*
+   **Candidates:** `help_request` vs `helpful_answer`. The content is a working
+   solution, which looks like a `helpful_answer`. **Decision: `help_request`,** per
+   edge-case rule (c): I classify by author role, and this is the original asker
+   resolving their own thread, not another member helping them.
+
+4. **id 84 — saw101:** *"There's a MakeUseOf article that compares the free VPN services
+   and their speeds — worth a read."*
+   **Candidates:** `helpful_answer` vs `noise`. A link with no summary can be a lazy
+   brush-off. **Decision: `helpful_answer`,** because it names a *specific* resource
+   that directly addresses the asker's question — unlike the generic "check your user
+   manual" (id 132), which I labeled `noise`.
+
 ---
 
 ## 4. Data collection plan
