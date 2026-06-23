@@ -1,3 +1,4 @@
 id,text,label
-1,Replace this with a real example text,label_a
-2,Another example goes here,label_b
+1,"WHICH streaming device to replace Roku? I watch mostly YouTube TV library recordings and Netflix on standard (non-4K) TVs. I need a remote with power/volume/mute and 30-second skip forward and back which I use constantly. Would Chromecast or Fire Stick be better, and do they support commercial skipping on recorded shows?",help_request
+2,"I identified your device as the MAGNA HIFI MANO ULTRA MKII running piCorePlayer v8.0.0 with Squeezelite v1.9.9-1430-pCP. Here is the manual link for advanced configuration so you can check the service startup order.",helpful_answer
+3,"very helpful comment, i read it, thanks for sharing!",noise
